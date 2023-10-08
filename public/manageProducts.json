@@ -1,0 +1,74 @@
+[
+    {
+      "price": 15, 
+      "Stock": 10000, 
+      "Minimum_Order": 1000,
+      "img": "https://cutt.ly/5JwBFUp",
+      "name": "Satin Finish 25cm Ceramic Vase",
+      "about": "With a satin finish, this tall stylish ceramic vase with a modern shape will prove to be a spectacular addition to any home. It’s calm, pastel tone will boost the soft spring seasonal feelings as well as subtle blending into your home."
+    },
+    {
+      "price": 18, 
+      "Stock": 50000, 
+      "Minimum_Order": 1500,
+      "img": "https://cutt.ly/RJwMqeO",
+      "name": "Ceramic Face Vase",
+      "about": "This stunning vase with a decorative face will add an element of artistic design flair to any room, with its modern colourway, complementing an array home of decors beautifully."
+    },
+    {
+      "price": 35, 
+      "Stock": 20000, 
+      "Minimum_Order": 2000,
+      "img": "https://cutt.ly/sJwMQhd",
+      "name": "Gingko Shell Vase Cream",
+      "about": "Add a statement vase to your home with this beautiful Gingko Shell Vase. Beautifully crafted with a detailed shell texture and elegant pink colourway."
+    },
+    {
+      "price": 27, 
+      "Stock": 10000, 
+      "Minimum_Order": 1000,
+      "img": "https://cutt.ly/dJw8gyA",
+      "name": "Silver Skeleton Clock",
+      "about": "This silver circular framed clock is a classic design with roman numeral figures. This clock requires 1 X AA battery."
+    },
+    {
+      "price": 17, 
+      "Stock": 40000, 
+      "Minimum_Order": 2000,
+      "img": "https://cutt.ly/IJw8HL0",
+      "name": "Reluxe Wall Clock",
+      "about": "The natural wooden frame coupled with the silver accents and hands are sure to make this clock a stunning centerpiece for any home."
+    },
+    {
+      "price": 44, 
+      "Stock": 25000, 
+      "Minimum_Order": 1500,
+      "img": "https://cutt.ly/7Jw4t6Q",
+      "name": "Delphi Wall Clock",
+      "about": "The Delphi range is the perfect way to add a hint of glamour to your home, inspired and elegantly crafted with a mix of wood and mirrored back."
+    },
+    {
+      "price": 20, 
+      "Stock": 15000, 
+      "Minimum_Order": 500,
+      "img": "https://cutt.ly/mJw4Uf6",
+      "name": "Priya White Easy Fit Pendant",
+      "about": "Featuring a modern artichoke style with 3D detailing in a fresh white tone, this ceiling light pendant is crafted from durable materials."
+    },
+    {
+      "price": 78, 
+      "Stock": 30000, 
+      "Minimum_Order": 1000,
+      "img": "https://cutt.ly/lJw7fsL",
+      "name": "Lilia Acrylic Clear Easy Fit Pendant",
+      "about": "Make a bold statement in your room with this acrylic ceiling pendant, crafted with an abstract clear prism design and a contemporary chrome finish."
+    },
+    {
+      "price": 17, 
+      "Stock": 20000, 
+      "Minimum_Order": 1000,
+      "img": "https://cutt.ly/UJw7IlH",
+      "name": "Bremen Black Easy Fit Pendant",
+      "about": "Featuring a contemporary geometric frame this ceiling pendant has one light bulb fitting and is complete with a black painted finish."
+    }
+  ]
