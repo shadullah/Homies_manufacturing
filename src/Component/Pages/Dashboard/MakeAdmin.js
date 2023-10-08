@@ -13,7 +13,7 @@ const MakeAdmin = () => {
     refetch,
   } = useQuery("users", () =>
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/users"
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/users"
     ).then((res) => res.json())
   );
 

@@ -15,7 +15,7 @@ const AddReview = () => {
     const review = { ratings, description, img, name };
 
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/review",
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/review",
       {
         method: "POST",
         headers: {

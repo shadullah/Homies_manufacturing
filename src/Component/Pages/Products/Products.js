@@ -7,7 +7,7 @@ const Products = () => {
 
   useEffect(() => {
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/product"
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/product"
     )
       .then((res) => res.json())
       .then((data) => setProducts(data));

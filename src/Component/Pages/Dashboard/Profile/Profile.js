@@ -19,7 +19,7 @@ const Profile = () => {
     refetch,
   } = useQuery("porfile", () =>
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/user/${user?.email}`
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/user/${user?.email}`
     ).then((res) => res.json())
   );
 

@@ -14,7 +14,7 @@ const ManageOrders = () => {
     refetch,
   } = useQuery("orders", () =>
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/allorders"
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/allorders"
     ).then((res) => res.json())
   );
 

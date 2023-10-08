@@ -7,7 +7,7 @@ const Testimonial = () => {
 
   useEffect(() => {
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/reviews"
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/reviews"
     )
       .then((res) => res.json())
       .then((data) => setReviews(data));

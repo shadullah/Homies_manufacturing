@@ -14,7 +14,7 @@ const OrderModal = ({ profile, refetch, setModalClose }) => {
     const profile = { education, location, phone, linkedin };
 
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/user/${email}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/user/${email}`,
       {
         method: "PUT",
         headers: {

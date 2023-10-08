@@ -16,7 +16,7 @@ const CheckoutForm = ({ order }) => {
 
   useEffect(() => {
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/create-payment-intent",
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/create-payment-intent",
       {
         method: "POST",
         headers: {
@@ -83,7 +83,7 @@ const CheckoutForm = ({ order }) => {
         transactionId: paymentIntent.id,
       };
       fetch(
-        `https://homies-manufacturer-website-server-hexaalif.vercel.app/orders/${_id}`,
+        `https://homies-manufacturer-website-server-main-tan.vercel.app/orders/${_id}`,
         {
           method: "PATCH",
           headers: {

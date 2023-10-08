@@ -20,7 +20,7 @@ const Payment = () => {
     error,
   } = useQuery(["orders", paymentId], () =>
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/orders/${paymentId}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/orders/${paymentId}`,
       {
         method: "GET",
         headers: {

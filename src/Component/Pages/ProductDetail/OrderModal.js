@@ -27,7 +27,7 @@ const OrderModal = ({ order, setOrder }) => {
     };
 
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/order/${id}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/order/${id}`,
       {
         method: "POST",
         headers: {

@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const OrderModal = ({ setModalClose, _id, productName, refetch }) => {
   const handleDelete = () => {
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/product/${_id}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/product/${_id}`,
       {
         method: "DELETE",
         headers: {

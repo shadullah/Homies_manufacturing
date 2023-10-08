@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const DeleverdModal = ({ setModalClose, _id, productName }) => {
   const handleDeleverd = () => {
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/paidorders/${_id}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/paidorders/${_id}`,
       {
         method: "PATCH",
         headers: {

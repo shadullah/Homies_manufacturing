@@ -13,7 +13,7 @@ const MyOrders = () => {
   useEffect(() => {
     if (user) {
       fetch(
-        `https://homies-manufacturer-website-server-hexaalif.vercel.app/orders?email=${user.email}`,
+        `https://homies-manufacturer-website-server-main-tan.vercel.app/orders?email=${user.email}`,
         {
           method: "GET",
           headers: {

@@ -7,7 +7,7 @@ const useAdmin = (user) => {
     const email = user?.email;
     if (email) {
       fetch(
-        `https://homies-manufacturer-website-server-hexaalif.vercel.app/admin/${email}`,
+        `https://homies-manufacturer-website-server-main-tan.vercel.app/admin/${email}`,
         {
           method: "GET",
           headers: {

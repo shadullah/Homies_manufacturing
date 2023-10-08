@@ -5,7 +5,7 @@ const DeleverdModal = ({ setModalClose, _id, name, refetch }) => {
   const handleAdmin = () => {
     const role = { role: "admin" };
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/users/${_id}`,
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/users/${_id}`,
       {
         method: "PUT",
         headers: {

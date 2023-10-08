@@ -10,7 +10,7 @@ const useToken = (user) => {
 
     if (email) {
       fetch(
-        `https://homies-manufacturer-website-server-hexaalif.vercel.app/user/${email}`,
+        `https://homies-manufacturer-website-server-main-tan.vercel.app/user/${email}`,
         {
           method: "PUT",
           headers: {

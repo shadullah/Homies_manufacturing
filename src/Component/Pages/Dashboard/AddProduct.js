@@ -15,7 +15,7 @@ const AddProduct = () => {
     const product = { name, unitPrice, stock, description, minOrder, image };
 
     fetch(
-      "https://homies-manufacturer-website-server-hexaalif.vercel.app/product",
+      "https://homies-manufacturer-website-server-main-tan.vercel.app/product",
       {
         method: "POST",
         headers: {

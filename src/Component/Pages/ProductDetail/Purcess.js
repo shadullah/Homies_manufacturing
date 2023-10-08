@@ -20,9 +20,10 @@ const Purcess = () => {
     error,
   } = useQuery("purcess", () =>
     fetch(
-      `https://homies-manufacturer-website-server-hexaalif.vercel.app/product/${id}`
+      `https://homies-manufacturer-website-server-main-tan.vercel.app/product/${id}`
     ).then((res) => res.json())
   );
+  // https://homies-manufacturer-website-server-main-tan.vercel.app/product
 
   if (isLoading) {
     return <Loading />;
